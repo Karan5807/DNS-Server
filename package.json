@@ -1,0 +1,20 @@
+{
+  "name": "dns-server",
+  "version": "1.0.0",
+  "description": "\"A DNS Server\"",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "\"Karan Singh\"",
+  "license": "ISC",
+  "dependencies": {
+    "dns2": "^2.1.0",
+    "nodemon": "^3.1.4"
+  },
+  "devDependencies": {
+    "@types/dns2": "^2.0.9"
+  }
+}
